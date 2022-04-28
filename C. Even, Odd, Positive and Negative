@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int number;
+    cin>>number;
+    int even=0,odd=0,negative=0,positive=0;
+    for(int i = 1; i<= number; i++)
+    {
+        int num;
+        cin>>num;
+        if(num%2 ==0){
+            even++;                  //even
+        }
+        else{
+            odd++;
+        }
+        if(num > 0){
+            positive++;
+
+        }
+        else if(num < 0){
+            negative++;
+        }
+    }
+        cout<<"Even: "<<even<<endl;
+        cout<<"Odd: "<<odd<<endl;
+        cout<<"Positive: "<<positive<<endl;
+        cout<<"Negative: "<<negative<<endl;
+        return 0;
+    }
