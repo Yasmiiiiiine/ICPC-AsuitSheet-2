@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cin>>num;
+    long long factNum = 1;
+    while(num--)
+    {
+        int number;
+        cin>>number;
+        for(int i = 1; i<= number ; i++)
+        {
+
+            factNum*= i;
+        }
+        cout<<factNum<<endl;
+        factNum=1;
+    }
+return 0;
+}
+
