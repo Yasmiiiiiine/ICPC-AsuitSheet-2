@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{  int beginNum;
+   cin>>beginNum;
+    for(int i = beginNum; i<= 12; i++)
+    {
+       cout<<beginNum << " * " << i <<" = "<< beginNum*i <<endl;
+
+    }
+
+
+    return 0;
+}
+
